@@ -53,7 +53,7 @@ switch(type){
          return{
              ...state,
              repos: payload,
-             loading:false
+             loading: false
          }   
 
         default:

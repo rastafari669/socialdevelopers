@@ -83,7 +83,7 @@ export const getProfiles = () => async dispatch =>{
   //Get Girthub repos
   export const getGithubRepos = username => async dispatch =>{
     
-    
+    console.log(username);
     try {
         const res = await axios.get(`/api/profile/github/${username}`);
         

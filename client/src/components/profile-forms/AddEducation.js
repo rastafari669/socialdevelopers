@@ -42,7 +42,7 @@ const AddEducation = ({addEducation,history}) => {
           <input type="text" placeholder="* Degree or Certificate" name="degree" value={degree} onChange={e => onChange(e)} required />
         </div>
         <div className="form-group">
-          <input type="text" placeholder="fieldofstudy" name="location" value={fieldofstudy} onChange={e => onChange(e)} />
+          <input type="text" placeholder=" * field of study" name="fieldofstudy" value={fieldofstudy} onChange={e => onChange(e)} />
         </div>
         <div className="form-group">
           <h4>From Date</h4>
